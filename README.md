@@ -93,11 +93,20 @@ También podés cambiar la validación de "5 a 7 días" en el hero (buscá `5 a 
 
 ## Cómo cambiar imágenes
 
-La única imagen que usa la landing es el **retrato de Giselle**, en la sección "Quién está detrás".
+La landing usa dos imágenes:
 
-1. Creá o usá la carpeta `imagenes/` dentro de `landing-google/`.
-2. Copiá tu foto ahí, por ejemplo: `landing-google/imagenes/giselle-kaplun.jpg`.
-3. En `index.html`, buscá `class="portrait"` y reemplazá el valor de `src`:
+### 1. Logo del header
+1. Reemplazá el archivo `imagenes/logo.png` por tu nuevo logo (mantené el mismo nombre).
+2. Si el archivo falta, el header muestra el círculo vacío sin romper el diseño.
+3. El código está en `index.html`, buscá `class="brand-logo"`. Para cambiar el nombre del archivo, editá el `src`:
+
+```html
+<img class="brand-logo" src="imagenes/logo.png" alt="Logo de Giselle Kaplun">
+```
+
+### 2. Retrato de Giselle (sección "Quién está detrás")
+1. Copiá tu foto en la carpeta `imagenes/`, por ejemplo: `landing-google/imagenes/giselle-kaplun.jpg`.
+2. En `index.html`, buscá `class="portrait"` y reemplazá el valor de `src`:
 
 ```html
 <img src="imagenes/giselle-kaplun.jpg" alt="Giselle Kaplun" ...>
