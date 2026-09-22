@@ -67,15 +67,18 @@ svg { width: 17px; height: 17px; stroke-width: 1.7; }
 
 .brand { display: flex; align-items: center; gap: 11px; }
 
-.brand-mark {
-  width: 36px;
-  height: 36px;
-  border: 1px solid var(--terracotta);
-  color: var(--terracotta);
-  display: grid;
-  place-items: center;
+.brand-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
   border-radius: 50%;
+  border: 1px solid var(--line);
+  display: block;
+  flex: none;
 }
+
+/* Logo en el header: reemplazá el archivo imagenes/logo.png por tu logo.
+   Si el archivo no existe, se muestra el círculo vacío sin romper el diseño. */
 
 .brand strong, .brand small { display: block; line-height: 1.05; }
 
