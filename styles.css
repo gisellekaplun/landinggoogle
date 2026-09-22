@@ -635,7 +635,7 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
   overflow: hidden;
 }
 
-/* Fondo de mapa estilo Google Maps: mosaico de tiles (imagenes/mapa/*.png).
+/* Fondo de mapa estilo Google Maps: mosaico 4x3 de tiles (en la raiz, al lado de index.html).
    Si faltan tiles, el fondo (var(--sand)) queda visible y no se rompe el diseño. */
 .map-bg {
   position: absolute;
@@ -764,7 +764,7 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
 .portrait.is-missing img { opacity: 0; }
 
 .portrait.is-missing:before {
-  content: "Giselle Kaplun — reemplazá la imagen en /imagenes/";
+  content: "Giselle Kaplun — reemplazá giselle-kaplun.jpg en la raíz";
   position: absolute;
   inset: 26px;
   z-index: 2;
