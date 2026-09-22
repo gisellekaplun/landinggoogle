@@ -656,8 +656,8 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: saturate(.35) contrast(1.02) brightness(1.06);
-  opacity: .55;
+  filter: saturate(.65) contrast(1.02) brightness(1.02);
+  opacity: .9;
 }
 
 .map-bg::after {
@@ -665,7 +665,7 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: linear-gradient(135deg, rgba(227, 216, 199, .5), rgba(244, 240, 232, .2));
+  background: linear-gradient(135deg, rgba(227, 216, 199, .2), rgba(244, 240, 232, .05));
 }
 
 .map-credit {
