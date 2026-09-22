@@ -663,7 +663,7 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
   transform: rotate(-8deg);
 }
 
-.process-circle svg { margin-bottom: 17px; }
+.process-circle svg { width: 72px; height: 72px; margin-bottom: 17px; }
 .process-circle em { font-size: 37px; }
 
 .steps { border-top: 1px solid rgba(31, 61, 43, .2); }
