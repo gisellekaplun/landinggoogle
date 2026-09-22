@@ -77,7 +77,7 @@ svg { width: 17px; height: 17px; stroke-width: 1.7; }
   flex: none;
 }
 
-/* Logo en el header: reemplazá el archivo imagenes/logo.png por tu logo.
+/* Logo en el header: reemplazá el archivo logo.png por tu logo.
    Si el archivo no existe, se muestra el círculo vacío sin romper el diseño. */
 
 .brand strong, .brand small { display: block; line-height: 1.05; }
@@ -410,7 +410,7 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
 
 .pillars {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto repeat(3, 1fr);
   background: var(--ink);
   color: white;
   padding: 28px max(32px, calc((100vw - 1176px) / 2));
@@ -422,6 +422,15 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
   grid-template-rows: 1fr 1fr;
   border-right: 1px solid rgba(255, 255, 255, .2);
   padding-left: 26px;
+}
+
+.pillars .pillars-pov {
+  display: flex;
+  align-items: center;
+  color: var(--terracotta);
+  font: 30px var(--serif);
+  letter-spacing: .02em;
+  text-transform: uppercase;
 }
 
 .pillars > div:first-child { padding-left: 0; }
