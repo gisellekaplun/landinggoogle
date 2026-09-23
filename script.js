@@ -49,14 +49,8 @@ document.getElementById("contactForm").addEventListener("submit", (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
 
-  // El mensaje incluye nombre, negocio, medio de contacto y consulta comercial
-  const message = [
-    "Hola Giselle, quiero armar la Ficha de Google de mi negocio para que me encuentren en Google.",
-    `Me llamo ${form.get("nombre")}.`,
-    `Mi negocio es ${form.get("negocio")}.`,
-    `Podés contactarme por ${form.get("contacto")}.`,
-    "Quiero saber más sobre el servicio de Ficha de Google ($50.000) y cómo empezar."
-  ].join("\n");
+  // Mensaje predeterminado enviado a WhatsApp
+  const message = "Hola Giselle, quiero armar la Ficha de Google de mi negocio.";
 
   window.open(
     `${WHATSAPP_URL}?text=${encodeURIComponent(message)}`,
