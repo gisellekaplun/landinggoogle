@@ -67,7 +67,7 @@ Todos los colores están definidos como variables al inicio de `styles.css`:
 
 ```css
 :root {
-  --ink: #1d1c1a;        /* Negro tinta */
+  --ink: #1f3d2b;        /* Verde oscuro (antes negro tinta) */
   --paper: #f4f0e8;      /* Marfil (fondo claro) */
   --terracotta: #b9573f; /* Terracota (acento) */
   --rose: #e8c9be;       /* Rosa suave */
@@ -75,6 +75,8 @@ Todos los colores están definidos como variables al inicio de `styles.css`:
   --sand: #e3d8c7;       /* Beige arena */
 }
 ```
+
+> El verde oscuro `#1f3d2b` es el mismo "verde profundo" (`--green-deep`) que usa la web [gkaplunconsultora.com.ar](https://gkaplunconsultora.com.ar/). Alcanza con cambiarlo acá y se actualiza en textos, botones, la franja de pilares, el formulario y el footer.
 
 Cambiá el valor de cualquier variable y se actualiza en toda la landing automáticamente. Por ejemplo, para un terracota más intenso: `--terracotta: #a84a32;`.
 
@@ -96,20 +98,22 @@ También podés cambiar la validación de "5 a 7 días" en el hero (buscá `5 a 
 La landing usa dos imágenes:
 
 ### 1. Logo del header
-1. Reemplazá el archivo `imagenes/logo.png` por tu nuevo logo (mantené el mismo nombre).
+1. El logo vive en la **raíz** de la landing: `logo.png` (reemplazá ese archivo por tu nuevo logo, manteniendo el mismo nombre).
 2. Si el archivo falta, el header muestra el círculo vacío sin romper el diseño.
-3. El código está en `index.html`, buscá `class="brand-logo"`. Para cambiar el nombre del archivo, editá el `src`:
+3. En `index.html`, buscá `class="brand-logo"`. El `src` ya apunta a la raíz:
 
 ```html
-<img class="brand-logo" src="imagenes/logo.png" alt="Logo de Giselle Kaplun">
+<img class="brand-logo" src="logo.png" alt="Logo de Giselle Kaplun">
 ```
 
+> Si preferís tenerlo en `imagenes/logo.png` en vez de la raíz, subí también ese archivo y cambiá el `src` a `imagenes/logo.png`.
+
 ### 2. Retrato de Giselle (sección "Quién está detrás")
-1. Copiá tu foto en la carpeta `imagenes/`, por ejemplo: `landing-google/imagenes/giselle-kaplun.jpg`.
-2. En `index.html`, buscá `class="portrait"` y reemplazá el valor de `src`:
+1. La foto vive **en la raíz**: `giselle-kaplun.jpg` (al lado de `index.html`). Reemplazá ese archivo por tu nueva foto, manteniendo el mismo nombre.
+2. En `index.html`, buscá `class="portrait"`; el `src` apunta a la raíz:
 
 ```html
-<img src="imagenes/giselle-kaplun.jpg" alt="Giselle Kaplun" ...>
+<img src="giselle-kaplun.jpg" alt="Giselle Kaplun" ...>
 ```
 
 Si la imagen no carga, el diseño no se rompe: se mantiene el espacio reservado con un fondo editorial neutro y un mensaje que indica dónde se reemplaza.
@@ -126,7 +130,9 @@ El número está en dos lugares:
 const WHATSAPP_URL = "http://wa.me/541149487553";
 ```
 
-2. **`index.html`** (lo usan todos los botones "Quiero...", el menú y el teléfono): buscá y reemplazá todas las apariciones de `http://wa.me/541149487553`. El teléfono visible `+54 9 11 4948 7553` también aparece en la sección de contacto.
+2. **`index.html`** (lo usan todos los botones "Quiero...", el menú, el teléfono y el botón flotante de WhatsApp `.wa-float`): buscá y reemplazá todas las apariciones de `http://wa.me/541149487553`. El teléfono visible `+54 9 11 4948 7553` también aparece en la sección de contacto.
+
+> **Botón flotante de WhatsApp:** es el círculo verde fijo abajo a la derecha. Está al final del `index.html` (clase `wa-float`) y su estilo (color, tamaño, posición) en `styles.css`. El verde es `#25d366`; podés cambiarlo ahí.
 
 ---
 
