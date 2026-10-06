@@ -1,0 +1,136 @@
+{
+  "pagina": {
+    "titulo": "Que te encuentren en Google | Giselle Kaplun",
+    "descripcion": "Armamos y optimizamos la presencia digital de tu negocio para que más personas te encuentren, te entiendan y te elijan."
+  },
+  "contacto": {
+    "whatsapp": "http://wa.me/541149487553",
+    "telefono": "+54 9 11 4948 7553",
+    "ubicacion": "Buenos Aires, Argentina · Online",
+    "mensaje_whatsapp": "Hola Giselle, quiero armar la Ficha de Google de mi negocio."
+  },
+  "marca": {
+    "nombre": "Giselle Kaplun",
+    "eslogan": "DE LA IDEA A LA ACCIÓN"
+  },
+  "menu": [
+    { "texto": "El problema" },
+    { "texto": "Qué incluye" },
+    { "texto": "Preguntas" },
+    { "texto": "Quiero aparecer", "boton": true }
+  ],
+  "hero": {
+    "tag": "Servicio inicial · Google Business Profile",
+    "titulo1": "Que te encuentren en Google. ",
+    "titulo2": "Dejá de depender del boca en boca.",
+    "detalle": "Armamos y ordenamos la ficha de Google de tu negocio para que aparezcas cuando tus clientes buscan lo que ofrecés.",
+    "boton": "Quiero mi ficha",
+    "link2": "Ver qué incluye",
+    "confianza1": "Configuración personalizada",
+    "confianza2": "5 a 7 días",
+    "busqueda": "negocio cerca de mí",
+    "perfil": "Perfil de Negocio",
+    "resultado_titulo": "Tu negocio, visible y claro",
+    "resultado_detalle": "Tu información al alcance de un clic",
+    "accion1": "Contactar",
+    "accion2": "Cómo llegar",
+    "nota": "La primera impresión también sucede online.",
+    "visual_label": "presencia"
+  },
+  "pilares": {
+    "label": "POV",
+    "items": [
+      { "numero": "01", "titulo": "Presencia", "detalle": "Que te encuentren" },
+      { "numero": "02", "titulo": "Orden", "detalle": "Que te entiendan" },
+      { "numero": "03", "titulo": "Venta", "detalle": "Que te elijan" }
+    ]
+  },
+  "problema": {
+    "numero": "02",
+    "label": "Lo que vemos todos los días",
+    "titulo1": "Si no aparecés, ",
+    "titulo2": "es como si no existieras.",
+    "detalle": "Hoy las personas buscan en Google antes de escribir, llamar o acercarse. Tu ficha es la vidriera digital más directa de tu negocio: trabaja incluso cuando vos estás ocupado.",
+    "items": [
+      { "numero": "01", "texto": "Tu negocio no aparece cuando alguien busca lo que ofrecés." },
+      { "numero": "02", "texto": "Tu ficha está incompleta, desactualizada o directamente no existe." },
+      { "numero": "03", "texto": "Dependés solamente de recomendaciones para conseguir una consulta." },
+      { "numero": "04", "texto": "Competidores menos preparados aparecen antes que vos." },
+      { "numero": "05", "texto": "Se pierden oportunidades de consulta y venta todos los días." }
+    ]
+  },
+  "oferta": {
+    "numero": "03",
+    "label": "La solución",
+    "titulo1": "Tu ficha de Google, ",
+    "titulo2": "lista para trabajar por vos.",
+    "detalle": "Un servicio concreto para ordenar tu presencia local y dejar de perder oportunidades por información que no aparece o no se entiende.",
+    "precio1": "Servicio puntual",
+    "precio2": "$50.000",
+    "precio3": "pesos argentinos · pago único",
+    "boton": "Quiero empezar",
+    "incluye_titulo": "Qué incluye",
+    "items": [
+      "Creación o reclamación de tu Perfil de Negocio en Google",
+      "Carga y orden de categoría, descripción, horarios y contacto",
+      "Configuración de ubicación y conexión con Google Maps",
+      "Optimización inicial para que tu negocio sea claro y encontrable",
+      "Recomendaciones prácticas para mantener tu ficha activa"
+    ],
+    "nota": "Tu negocio merece una vidriera que abra todos los días."
+  },
+  "proceso": {
+    "numero": "04",
+    "label": "Cómo trabajamos",
+    "titulo1": "Sin vueltas. ",
+    "titulo2": "Con acompañamiento.",
+    "circulo": ["hacemos", "visible", "lo valioso"],
+    "steps": [
+      { "numero": "01", "titulo": "Reunión inicial", "detalle": "Nos conocemos, analizo tu negocio y tus canales actuales, para pensar cómo armarla." },
+      { "numero": "02", "titulo": "Orden", "detalle": "Completamos y organizamos la información clave para completarla." },
+      { "numero": "03", "titulo": "Implementación", "detalle": "Configuramos la ficha y la dejamos lista para que quede disponible en internet, puedan dejarte reseñas e ir posicionando tu proyecto orgánicamente." }
+    ]
+  },
+  "sobre": {
+    "numero": "05",
+    "label": "Quién está detrás",
+    "titulo1": "Entiendo tu realidad porque trabajé muchos años ",
+    "titulo2": "de tu lado del mostrador.",
+    "parrafo1": "Tengo más de 15 años de experiencia en Marketing y Comunicación, acompañando marcas, comercios y emprendedores a crecer con estrategias claras y resultados reales.",
+    "parrafo2": "Mi misión es que los negocios de nuestra comunidad puedan adaptar su realidad cotidiana al mundo online, sin complicarse y sin perder su esencia.",
+    "boton": "Hablemos de tu negocio"
+  },
+  "faq": {
+    "numero": "06",
+    "label": "Preguntas frecuentes",
+    "titulo1": "Antes de empezar, ",
+    "titulo2": "conversemos.",
+    "detalle": "Estas son algunas preguntas que suelen aparecer antes de dar el primer paso.",
+    "items": [
+      { "pregunta": "¿La ficha de Google sirve si trabajo desde mi casa?", "respuesta": "Sí. Podemos trabajar con un área de servicio y configurar la información para que te encuentren sin exponer una dirección que no quieras publicar." },
+      { "pregunta": "¿Esto me garantiza aparecer primero?", "respuesta": "Nadie puede garantizar una posición exacta en Google. El servicio deja tu ficha correctamente armada, clara y optimizada para empezar a competir con mejores condiciones." },
+      { "pregunta": "¿Qué necesito para empezar?", "respuesta": "Datos básicos de tu negocio, horarios, zona de atención, contacto, fotos y acceso o autorización para gestionar el Perfil de Negocio." },
+      { "pregunta": "¿Cuánto demora?", "respuesta": "La configuración básica se realiza en aproximadamente 5 a 7 días, según la información disponible y los tiempos de validación de Google." }
+    ]
+  },
+  "contacto_seccion": {
+    "numero": "07",
+    "label": "El próximo paso",
+    "titulo1": "Que te encuentren, te entiendan y ",
+    "titulo2": "te elijan.",
+    "detalle": "Escribime y coordinamos la Ficha de Google de tu negocio para que aparezcas cuando tus clientes te buscan.",
+    "form_nombre": "Tu nombre",
+    "form_negocio": "Tu negocio",
+    "form_contacto": "Tu contacto",
+    "ph_nombre": "¿Cómo te llamás?",
+    "ph_negocio": "¿Qué ofrecés?",
+    "ph_contacto": "WhatsApp o email",
+    "boton": "Quiero mi Ficha de Google"
+  },
+  "footer": {
+    "nombre": "Giselle Kaplun",
+    "tagline": "Tu vidriera digital empieza acá.",
+    "cta": "Hablemos",
+    "derechos": "Todos los derechos reservados."
+  }
+}
